@@ -1,15 +1,10 @@
 import javax.swing.plaf.metal.MetalBorders.ScrollPaneBorder;
 
-public class Iphone {
-    public void printThanks()
+public class Iphone extends Mobile{
+    public  Iphone storePhoneRef(Iphone iphone)
     {
+        super.printThanks();
         System.out.println("Thanks for Buying :");
-    }
-}
-
-class Iphone17pro extends Iphone{
-    public void printThanks()
-    {
-        System.out.print("Iphone17pro");
+        return iphone;
     }
 }

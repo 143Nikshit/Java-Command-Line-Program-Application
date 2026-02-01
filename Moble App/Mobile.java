@@ -5,7 +5,10 @@ public class Mobile {
     Vivo vivo;
     Phone phone;
 
-    
+     public void printThanks()
+    {
+        System.out.println("Thanks for Buying :");
+    }
     public Iphone storePhoneRef(Iphone iphone)
     {
         this.iphone = iphone;

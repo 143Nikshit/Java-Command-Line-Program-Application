@@ -31,7 +31,8 @@ public class MobileDriver {
                     System.out.println("=> Iphone 18pro Max ");
                     System.out.println("=> Iphone 16pro  ");
                     
-                    (new Iphone()).printThanks();
+                    mobile = m.storePhoneRef(new Iphone());
+                    mobile.iphone.printThanks();
                     // System.out.println("Thanks for buying Iphone");
 
                     break;
