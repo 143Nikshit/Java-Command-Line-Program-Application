@@ -1,6 +1,6 @@
 public class Vivovplus extends Vivo{
     public void printThanks()
     {
-        System.out.println("VivoT1");
+        System.out.println("Thanks for buying Vivoplus");
     }
 }

@@ -1,6 +1,6 @@
-public class I17pro {
+public class I17pro extends Iphone{
     public void printThanks()
     {
-        System.out.println("VivoT1");
+        System.out.println("Thanks for buying I16pro");
     }
 }
