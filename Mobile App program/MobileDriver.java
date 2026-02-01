@@ -84,6 +84,7 @@ public class MobileDriver {
                                 
                             
                                 default:
+                                     System.out.println("*****Enter valid Model Name*****");
                                      System.out.println("-------------------------------------");
                                      System.out.println(".....Choose Your Model.....");
                                      System.out.println(" => Oppo Reno 9");
@@ -97,7 +98,7 @@ public class MobileDriver {
                     }
                 case "vivo" :
                     {
-                       System.out.println("-------------------------------------");
+                        System.out.println("-------------------------------------");
                         System.out.println(".....Choose Your Model.....");
                         System.out.println(" => Vivo T1");
     		            System.out.println(" => Vivoplus");
@@ -138,6 +139,7 @@ public class MobileDriver {
                                 
                             
                                 default:
+                                     System.out.println("*****Enter valid Model Name*****");
                                      System.out.println("-------------------------------------");
                                      System.out.println(".....Choose Your Model.....");
                                      System.out.println(" => Vivo T1");
@@ -151,13 +153,13 @@ public class MobileDriver {
 
                     }break;
 
-                case "samsung" :
+                case "samsung"  :
                     {
                         System.out.println("-------------------------------------");
                         System.out.println(".....Choose Your Model.....");
-                        System.out.println(" => Samsung s23");
-    		            System.out.println(" => Samsung s24");
-    		            System.out.println(" => Samsung s25");
+                        System.out.println(" => s23");
+    		            System.out.println(" => s24");
+    		            System.out.println(" => s25");
     		            System.out.println("Type Your Samsung Model: ");
     		            System.out.println("-------------------------------------");
 
@@ -194,11 +196,12 @@ public class MobileDriver {
                                 
                             
                                 default:
+                                     System.out.println("*****Enter valid Model Name*****");
                                      System.out.println("-------------------------------------");
                                      System.out.println(".....Choose Your Model.....");
-                                     System.out.println(" => Samsung s23");
-    		                         System.out.println(" => Samsung s24");
-    		                         System.out.println(" => Samsung s25");
+                                     System.out.println(" => s23");
+    		                         System.out.println(" => s24");
+    		                         System.out.println(" => s25");
     		                         System.out.println("Type Your Samsung Model: ");
     		                         System.out.println("-------------------------------------");
                                     break;
@@ -211,8 +214,8 @@ public class MobileDriver {
                         System.out.println("-------------------------------------");
                         System.out.println(".....Choose Your Model.....");
                         System.out.println(" => I15pro");
-    		            System.out.println(" => Iphone 16pro");
-    		            System.out.println(" => Iphone 17pro");
+    		            System.out.println(" => I16pro");
+    		            System.out.println(" => I17pro");
     		            System.out.println("Type Your Iphone Model: ");
     		            System.out.println("-------------------------------------");
 
@@ -249,11 +252,12 @@ public class MobileDriver {
                                 
                             
                                 default:
+                                     System.out.println("*****Enter valid Model Name*****");
                                      System.out.println("-------------------------------------");
                                      System.out.println(".....Choose Your Model.....");
                                      System.out.println(" => I15pro");
-    		                         System.out.println(" => Iphone 16pro");
-    		                         System.out.println(" => Iphone 17pro");
+    		                         System.out.println(" => I16pro");
+    		                         System.out.println(" => I17pro");
     		                         System.out.println("Type Your Iphone Model: ");
     		                         System.out.println("-------------------------------------");
                                     break;
